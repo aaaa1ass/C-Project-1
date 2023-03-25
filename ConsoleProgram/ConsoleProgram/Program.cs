@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            // 변수(Variable)란?
+            #region 변수(Variable)
+            /*
             // 데이터를 저장할 수 있는 메모리 공간을 생성하는 것입니다.
 
             // bool -> 1 byte (참과 거짓)
@@ -27,6 +28,47 @@
             // Console.Write( ) : 특정한 문자열을 출력하는 함수 (개행이 실행되지 않는다.)
             Console.Write("health 변수의 값 : " + health + " / ");
             Console.Write("attack 변수의 값 : " + attack);
+            */
+            #endregion
+
+
+            #region 프로그램 실행 순서
+
+            // true(참) 1
+            // false(거짓) 0
+
+            bool condition = true;
+            condition = false;
+
+            int data = 100;
+            data = 999;
+
+            float pi = 3.141592f;
+            pi = 5.5f;
+
+            #endregion
         }
+        #region 변수의 이름 규칙
+
+        // 1. 변수의 이름은 숫자로 사용할 수 없습니다.
+        // ex) int 1count = 0;
+
+        // 2. 변수의 이름으 키워드를 사용할 수 없습니다.
+        // ex) int int = 0;
+
+        //3. 변수의 이름에 공백이 포함될 수 없습니다.
+        // ex) int league of = 10;
+
+        // 4. 변수의 이름으로 특수문자 "_"만 가능합니다.
+        // ex) int count_down = 50;
+
+        // 5. 변수의 대소문자를 구분합니다.
+        // ex) int value = 99;
+        // ex) int VALUE = 20;
+
+        // 6. 변수의 이름은 중복될 수 없습니다.
+        #endregion
+
     }
+    
 }
