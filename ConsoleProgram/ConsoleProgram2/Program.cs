@@ -147,7 +147,7 @@ namespace ConsoleProgram2
 
             #endregion
 
-            #region
+            #region 사분면
             //사분면
             int x = 0;
             int y = 0;
